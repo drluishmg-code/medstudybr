@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>MedStudy Br — Resumos, Flashcards e Questões de Medicina</title>
+<meta name="description" content="MedStudy Br reúne resumos próprios de medicina, flashcards de repetição espaçada e mais de 13.000 questões autorais no estilo das bancas de residência — da faculdade à prova de residência médica." />
+<meta name="keywords" content="residência médica, medicina, flashcards, repetição espaçada, ENARE, REVALIDA, ENAMED, questões, resumos, faculdade de medicina" />
+<meta name="author" content="Luís Henrique Martins Gonçalves" />
+<link rel="canonical" href="https://drluishmg-code.github.io/medstudybr/index.html" />
+
+<link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+<link rel="manifest" href="manifest.json" />
+<meta name="theme-color" content="#8a5a2e" />
+
+<!-- Open Graph -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="MedStudy Br — Resumos, Flashcards e Questões de Medicina" />
+<meta property="og:description" content="Resumos próprios, flashcards de repetição espaçada e mais de 13.000 questões no estilo das bancas. Da faculdade à residência." />
+<meta property="og:image" content="https://drluishmg-code.github.io/medstudybr/assets/social-preview.png" />
+<meta property="og:url" content="https://drluishmg-code.github.io/medstudybr/index.html" />
+<meta property="og:locale" content="pt_BR" />
+<meta property="og:site_name" content="MedStudy Br" />
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="MedStudy Br — Resumos, Flashcards e Questões de Medicina" />
+<meta name="twitter:description" content="Resumos próprios, flashcards de repetição espaçada e questões no estilo das bancas." />
+<meta name="twitter:image" content="https://drluishmg-code.github.io/medstudybr/assets/social-preview.png" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet" />
+
+<link rel="stylesheet" href="style.css" />
+
+<!--
+  BOTOES-LOJA: os dois blocos de botões (topo e fim da página) estão como
+  "Em breve". Quando o app for publicado, preencha os links em
+  ferramentas/publicar-lojas.py e rode: python3 ferramentas/publicar-lojas.py
+-->
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MobileApplication",
+  "name": "MedStudy Br",
+  "applicationCategory": "EducationalApplication",
+  "operatingSystem": "iOS, Android",
+  "description": "Aplicativo de resumos, flashcards de repetição espaçada e banco de questões de medicina, da faculdade à residência médica.",
+  "author": { "@type": "Person", "name": "Luís Henrique Martins Gonçalves" }
+}
+</script>
+</head>
+<body>
+
+<a class="visually-hidden" href="#main">Pular para o conteúdo</a>
+
+<!-- ===================== HEADER ===================== -->
+<header class="site-header">
+  <div class="container nav">
+    <a href="index.html" class="nav-brand">
+      <img src="assets/logo.png" alt="" width="28" height="28" />
+      <span>MedStudy Br</span>
+    </a>
+
+    <nav class="nav-links" aria-label="Navegação principal">
+      <a href="#recursos">Recursos</a>
+      <a href="#capturas">Capturas</a>
+      <a href="#sobre">Sobre</a>
+      <a href="contact.html">Contato</a>
+    </nav>
+
+    <div class="nav-secondary-links" aria-label="Navegação legal">
+      <a href="privacy.html">Política de Privacidade</a>
+      <a href="terms.html">Termos</a>
+    </div>
+
+    <div class="nav-cta">
+      <a href="#download" class="btn btn-primary" style="padding:0.6rem 1.2rem; font-size:0.88rem;">Baixar</a>
+      <button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="navDrawer">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+
+  <div class="nav-drawer" id="navDrawer">
+    <a href="#recursos">Recursos</a>
+    <a href="#capturas">Capturas</a>
+    <a href="#sobre">Sobre</a>
+    <a href="contact.html">Contato</a>
+    <a href="privacy.html">Política de Privacidade</a>
+    <a href="terms.html">Termos</a>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero">
+    <svg class="hero-ecg" viewBox="0 0 600 90" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0 45 H120 L140 20 L160 70 L180 10 L200 45 H260 L280 45 L300 25 L320 65 L340 45 H420 L440 15 L460 75 L480 45 H600" />
+    </svg>
+
+    <div class="container">
+      <div class="hero-copy reveal">
+        <span class="eyebrow">Feito por um médico e professor · para quem está na faculdade e para quem estuda para a residência</span>
+        <h1>MedStudy Br</h1>
+        <p class="lede-title">Resumos, flashcards e questões de medicina, da faculdade à residência.</p>
+        <p class="lede">Resumos de autoria própria, revisados com apoio de inteligência artificial e organizados por grande área, disciplina e tema — com cartões de repetição espaçada e um banco de questões no estilo das principais bancas para você saber exatamente onde está e o que estudar agora.</p>
+
+        <div class="hero-actions">
+          <!-- BOTOES-LOJA -->
+          <div class="store-actions">
+            <a href="#" class="store-btn is-soon" aria-disabled="true" onclick="return false;" aria-label="Em breve na App Store">
+              <span class="store-btn-soon-tag">Em breve</span>
+              <svg viewBox="0 0 384 512" aria-hidden="true" aria-hidden="true"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141 4 184.8 4 273.7q0 39.4 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.1zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg>
+              <span class="store-btn-copy">
+                <small>Baixe em breve na</small>
+                <strong>App Store</strong>
+              </span>
+            </a>
+
+            <a href="#" class="store-btn is-soon" aria-disabled="true" onclick="return false;" aria-label="Em breve no Google Play">
+              <span class="store-btn-soon-tag">Em breve</span>
+              <svg viewBox="0 0 512 512" aria-hidden="true" aria-hidden="true"><path d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1zM47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l256.6-256L47 0zm425.2 225.6l-58.9-34.1-65.7 64.5 65.7 64.5 60.1-34.1c18-14.3 18-46.5-1.2-60.8zM104.6 499l280.8-161.2-60.1-60.1L104.6 499z"/></svg>
+              <span class="store-btn-copy">
+                <small>Baixe em breve no</small>
+                <strong>Google Play</strong>
+              </span>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-meta">
+          <div>
+            <strong>134</strong>
+            <span>temas nas cinco grandes áreas</span>
+          </div>
+          <div>
+            <strong>13.000+</strong>
+            <span>questões no estilo das bancas</span>
+          </div>
+          <div>
+            <strong>21.700+</strong>
+            <span>flashcards de repetição espaçada</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-figure reveal">
+        <img src="assets/screenshots/estudar.jpg" alt="Tela principal do aplicativo MedStudy Br" class="hero-app-image">
+        <div class="floating-chip chip-1"><span class="dot green"></span> Funciona 100% offline</div>
+        <div class="floating-chip chip-2"><span class="dot blue"></span> Atualizado · Out 2026</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== TRUST BAR ===================== -->
+  <div class="trust-bar">
+    <div class="container">
+      <ul>
+        <li>
+          <svg viewBox="0 0 24 24" fill="none" stroke="var(--color-blue)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="9"/></svg>
+          Conteúdo de autoria própria, revisado continuamente
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" fill="none" stroke="var(--color-green)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2v20M2 12h20"/></svg>
+          Um só conteúdo para faculdade e residência
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" fill="none" stroke="var(--color-red)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="8" width="16" height="12" rx="2"/><path d="M8 8V6a4 4 0 0 1 8 0v2"/></svg>
+          Nada sai do seu aparelho sem você exportar
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- ===================== RECURSOS ===================== -->
+  <section class="section" id="recursos">
+    <div class="container">
+      <div class="section-head center reveal">
+        <span class="eyebrow">Recursos</span>
+        <h2>Estudar, compreender, revisar, testar — e repetir</h2>
+        <p class="lede">Do resumo ao cartão de revisão, e do cartão à questão de prova. Muito conteúdo, mas sempre sabendo onde você está e o que fazer agora.</p>
+      </div>
+
+      <div class="features-grid">
+
+        <div class="feature-card reveal">
+          <div class="feature-icon blue"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="4" width="12" height="17" rx="2"/><path d="M9 4V3a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v1"/><path d="M9 11h6M9 15h6M9 19h3"/></svg></div>
+          <h3>Resumos por tema</h3>
+          <p>134 temas das cinco grandes áreas — Clínica Médica, Cirurgia, Pediatria, Ginecologia e Obstetrícia e Medicina Preventiva — escritos para estudar de verdade, com tabelas, macetes e pontos de prova.</p>
+        </div>
+
+        <div class="feature-card reveal">
+          <div class="feature-icon green"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="14" height="10" rx="2"/><rect x="7" y="9" width="14" height="10" rx="2"/></svg></div>
+          <h3>Flashcards automáticos</h3>
+          <p>Mais de 21.700 cartões gerados a partir de cada resumo, com fila de novos, aprendendo e revisões — repetição espaçada que insiste no que você errou.</p>
+        </div>
+
+        <div class="feature-card reveal">
+          <div class="feature-icon red"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="m9 12 2 2 4-4"/></svg></div>
+          <h3>Banco de questões</h3>
+          <p>Mais de 13.000 questões autorais no formato de cada banca (ENARE, REVALIDA, ENAMED, SUS, USP, UNIFESP, UNICAMP e outras), com explicação de cada alternativa e link direto para o resumo.</p>
+        </div>
+
+        <div class="feature-card reveal">
+          <div class="feature-icon blue"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/><path d="M8 11h6"/></svg></div>
+          <h3>Extensivo e intensivo</h3>
+          <p>O mesmo texto em duas lentes: leitura completa para aprender ou só o núcleo de cada resumo para a reta final — sem duplicar conteúdo.</p>
+        </div>
+
+        <div class="feature-card reveal">
+          <div class="feature-icon green"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10 12 5 2 10l10 5 10-5z"/><path d="M6 12v5c3 2 9 2 12 0v-5"/></svg></div>
+          <h3>Faculdade e residência</h3>
+          <p>Navegue por grande área (residência) ou por ciclo e disciplina (faculdade): Básico, Clínico e Internato, sobre o mesmo conteúdo.</p>
+        </div>
+
+        <div class="feature-card reveal">
+          <div class="feature-icon red"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3s6 6.2 6 10.5A6 6 0 0 1 6 13.5C6 9.2 12 3 12 3z"/></svg></div>
+          <h3>Simulados e sessões dirigidas</h3>
+          <p>Monte simulados por grande área, banca, nível e tempo, ou refaça só as questões erradas, nunca vistas ou favoritas.</p>
+        </div>
+
+        <div class="feature-card reveal">
+          <div class="feature-icon blue"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4z"/></svg></div>
+          <h3>Grifos, notas e desenho</h3>
+          <p>Marque trechos, escreva notas e desenhe à mão (Apple Pencil no iPad), tudo preso ao resumo e salvo no aparelho.</p>
+        </div>
+
+        <div class="feature-card reveal">
+          <div class="feature-icon green"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M7 15l4-5 4 3 5-7"/></svg></div>
+          <h3>Progresso detalhado</h3>
+          <p>Sequência de dias, maturidade do baralho e desempenho nas questões por grande área — geral e nos últimos 30 dias.</p>
+        </div>
+
+        <div class="feature-card reveal">
+          <div class="feature-icon red"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 12h10M4 18h7"/></svg></div>
+          <h3>Leitura sob medida</h3>
+          <p>Tema claro, escuro ou sépia, letra serifada ou não, quatro tamanhos e largura confortável no iPad.</p>
+        </div>
+
+        <div class="feature-card reveal">
+          <div class="feature-icon blue"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.7 21a2 2 0 0 1-3.4 0"/></svg></div>
+          <h3>Lembretes de estudo</h3>
+          <p>Lembretes locais no horário que você escolher, para manter a constância sem depender de internet.</p>
+        </div>
+
+        <div class="feature-card reveal">
+          <div class="feature-icon green"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 18h.01"/><path d="M9.2 15.2a4 4 0 0 1 5.6 0"/><path d="M6.5 12.5a8 8 0 0 1 11 0"/><path d="M3.8 9.8a12 12 0 0 1 16.4 0" opacity=".35"/><path d="M2 2l20 20"/></svg></div>
+          <h3>100% offline</h3>
+          <p>Resumos, flashcards e questões funcionam sem internet. Seu progresso fica no seu aparelho, com backup manual quando quiser.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CAPTURAS DE TELA ===================== -->
+  <section class="section section-alt" id="capturas">
+    <div class="container">
+      <div class="section-head center reveal">
+        <span class="eyebrow">Capturas</span>
+        <h2>O aplicativo em ação</h2>
+        <p class="lede">Resumos, flashcards, questões e progresso — no iPhone e no iPad.</p>
+      </div>
+
+      <div class="screens-gallery">
+
+        <figure class="screen-card reveal">
+          <img src="assets/screenshots/estudar.jpg" alt="Tela inicial do MedStudy Br" loading="lazy">
+          <figcaption>Estudar — grandes áreas e últimas atualizações</figcaption>
+        </figure>
+
+        <figure class="screen-card reveal">
+          <img src="assets/screenshots/faculdade.jpg" alt="Navegação por ciclo e disciplina" loading="lazy">
+          <figcaption>Modo Faculdade — ciclo básico, clínico e internato</figcaption>
+        </figure>
+
+        <figure class="screen-card reveal">
+          <img src="assets/screenshots/leitura.jpg" alt="Resumo de medidas de saúde coletiva" loading="lazy">
+          <figcaption>Resumo com macetes e lente intensiva</figcaption>
+        </figure>
+
+        <figure class="screen-card reveal">
+          <img src="assets/screenshots/flashcards.jpg" alt="Flashcard do MedStudy Br" loading="lazy">
+          <figcaption>Flashcards com repetição espaçada</figcaption>
+        </figure>
+
+        <figure class="screen-card reveal">
+          <img src="assets/screenshots/questao-detalhe.jpg" alt="Questão respondida com explicação" loading="lazy">
+          <figcaption>Questões com explicação de cada alternativa</figcaption>
+        </figure>
+
+        <figure class="screen-card reveal">
+          <img src="assets/screenshots/progresso.jpg" alt="Tela de progresso" loading="lazy">
+          <figcaption>Progresso do baralho e das questões</figcaption>
+        </figure>
+
+        <figure class="screen-card reveal">
+          <img src="assets/screenshots/ajustes.jpg" alt="Ajustes de perfil e leitura" loading="lazy">
+          <figcaption>Perfil, profundidade e leitura sob medida</figcaption>
+        </figure>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SOBRE ===================== -->
+  <section class="section" id="sobre">
+    <div class="container about-grid">
+      <div class="about-visual reveal">
+        <div class="stat-row"><strong>5</strong><span>grandes áreas: Clínica, Cirurgia, Pediatria, GO e Preventiva</span></div>
+        <div class="stat-row"><strong>13.000+</strong><span>questões autorais, no estilo de cada banca</span></div>
+        <div class="stat-row"><strong>2 modos</strong><span>Faculdade e Residência, sobre o mesmo conteúdo</span></div>
+      </div>
+
+      <div class="about-copy reveal">
+        <span class="eyebrow">Sobre o projeto</span>
+        <h2>Escrito por quem ensina e por quem também já estudou para a prova.</h2>
+        <p>O MedStudy Br nasceu da mesma ideia do AneStudy: transformar conteúdo médico complexo em conhecimento organizado, revisável e consolidado aos poucos — agora para toda a medicina.</p>
+        <p>Os resumos são de autoria própria e passam por revisão contínua, com apoio de inteligência artificial para organizar e atualizar o conteúdo — mas a fonte primária continua sendo a literatura e as diretrizes oficiais, com prioridade para as brasileiras.</p>
+        <p>Serve ao estudante, que acompanha a faculdade ciclo a ciclo, e ao médico formado, que se prepara para a residência: leia o resumo, deixe o app gerar os cartões, revise um pouco todo dia e treine com questões.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== AVISO ===================== -->
+  <section class="section section-alt">
+    <div class="container">
+      <div class="notice reveal">
+        <div class="notice-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 9v4"/><path d="M12 17h.01"/><path d="M10.3 3.9 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0z"/></svg>
+        </div>
+        <div>
+          <h3>Aviso importante</h3>
+          <p>O conteúdo do MedStudy Br passa por revisão contínua — temas, cartões e questões são atualizados com frequência.</p>
+          <p>As questões são de autoria própria, escritas no formato de cada banca, e não reproduzem provas oficiais. Os resumos são material de estudo — confira sempre a fonte primária antes de aplicar qualquer conduta a um paciente.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CTA FINAL ===================== -->
+  <section class="section" id="download">
+    <div class="container">
+      <div class="final-cta reveal">
+        <span class="eyebrow">Em breve para iPhone, iPad e Android</span>
+        <h2>Leve o MedStudy Br para a sua rotina de estudo</h2>
+        <p class="lede">O app está a caminho da App Store e da Google Play. Os botões abaixo são ativados assim que ele for publicado.</p>
+        <div class="hero-actions">
+          <!-- BOTOES-LOJA -->
+          <div class="store-actions" style="justify-content:center;">
+            <a href="#" class="store-btn is-soon" aria-disabled="true" onclick="return false;" aria-label="Em breve na App Store">
+              <span class="store-btn-soon-tag">Em breve</span>
+              <svg viewBox="0 0 384 512" aria-hidden="true" aria-hidden="true"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141 4 184.8 4 273.7q0 39.4 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.1zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg>
+              <span class="store-btn-copy">
+                <small>Baixe em breve na</small>
+                <strong>App Store</strong>
+              </span>
+            </a>
+
+            <a href="#" class="store-btn is-soon" aria-disabled="true" onclick="return false;" aria-label="Em breve no Google Play">
+              <span class="store-btn-soon-tag">Em breve</span>
+              <svg viewBox="0 0 512 512" aria-hidden="true" aria-hidden="true"><path d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1zM47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l256.6-256L47 0zm425.2 225.6l-58.9-34.1-65.7 64.5 65.7 64.5 60.1-34.1c18-14.3 18-46.5-1.2-60.8zM104.6 499l280.8-161.2-60.1-60.1L104.6 499z"/></svg>
+              <span class="store-btn-copy">
+                <small>Baixe em breve no</small>
+                <strong>Google Play</strong>
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="site-footer">
+  <div class="container">
+    <svg class="ecg-divider" viewBox="0 0 800 24" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0 12 H320 L335 3 L350 21 L365 12 H480 L495 3 L510 21 L525 12 H800"/>
+    </svg>
+
+    <div class="footer-top">
+      <div>
+        <div class="footer-brand">
+          <img src="assets/logo.png" alt="" width="26" height="26" />
+          <span>MedStudy Br</span>
+        </div>
+        <p class="footer-tagline">Resumos, flashcards e questões de medicina, da faculdade à residência.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Site</h4>
+        <ul>
+          <li><a href="#recursos">Recursos</a></li>
+          <li><a href="#capturas">Capturas</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="privacy.html">Política de Privacidade</a></li>
+          <li><a href="terms.html">Termos de Uso</a></li>
+          <li><a href="contact.html">Contato</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>© <span data-year>2026</span> Luís Henrique Martins Gonçalves. Todos os direitos reservados.</span>
+      <span>Feito para quem estuda.</span>
+    </div>
+  </div>
+</footer>
+
+<button class="back-to-top" aria-label="Voltar ao topo">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5"/><path d="M5 12l7-7 7 7"/></svg>
+</button>
+
+<script src="script.js"></script>
+</body>
+</html>

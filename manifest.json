@@ -1,0 +1,14 @@
+{
+  "name": "MedStudy Br - Resumos, Flashcards e Questões de Medicina",
+  "short_name": "MedStudy Br",
+  "description": "Resumos próprios de medicina, flashcards de repetição espaçada e questões no estilo das bancas — da faculdade à residência.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#FDFAF4",
+  "theme_color": "#8A5A2E",
+  "lang": "pt-BR",
+  "icons": [
+    { "src": "assets/logo.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ]
+}
