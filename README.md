@@ -40,7 +40,7 @@ medstudybr/
 
 ## Números citados no site (13/10/2026)
 
-134 temas · 21.700+ flashcards · 13.000+ questões autorais. Atualize o
+134 temas · 21.700+ flashcards · 15.000+ questões autorais. Atualize o
 `index.html` (hero, "Sobre") e o `social-preview.png` quando mudarem.
 
 ## GitHub Pages
